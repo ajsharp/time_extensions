@@ -1,0 +1,15 @@
+TimeExtensions
+==============
+
+A collection of useful methods that are mixed into Ruby's Time class.
+
+
+Example
+=======
+
+p = Product.create(:name => "Awesome Product")
+p.created_at # => returns a Time object
+p.created_at.long_month # => returns a string version of the month (i.e. "August")
+
+
+Copyright (c) 2008 Alex Sharp, released under the MIT license
